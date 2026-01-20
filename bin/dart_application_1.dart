@@ -1,7 +1,6 @@
 void main(List<String> arguments) {
   Person person1 = Person(name: "Wadee3", age: 21);
-  person1.printName();
-
+  person1.printInfo();
 }
 
 class Person {
