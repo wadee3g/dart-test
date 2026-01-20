@@ -1,4 +1,14 @@
 void main(List<String> arguments) {
-  print('Hello world!');
+  Person person1 = Person(name: "Wadee3", age: 21);
+  person1.printName();
 }
 
+class Person {
+  String? name;
+  int? age;
+  Person({this.name, this.age});
+
+  void printName() {
+    print("This $name");
+  }
+}
